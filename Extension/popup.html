@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Live Auto Clicker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <div class="popup-container">
+        <h2>TikTok Live Auto Clicker</h2>
+
+        <!-- Device Selection Buttons -->
+        <div id="deviceSelection">
+            <button id="desktopButton" class="button-primary">Desktop</button>
+            <button id="mobileButton" class="button-primary">Mobile</button>
+        </div>
+        
+        <!-- Click Count and Interval Inputs -->
+        <div id="settings" style="display: none;">
+            <label for="clickCount">Number of Clicks</label>
+            <input type="number" id="clickCount" min="1" placeholder="Enter clicks">
+            
+            <label for="clickInterval">Click Interval (ms)</label>
+            <input type="number" id="clickInterval" min="10" placeholder="Enter interval in ms" value="100">
+            
+            <button id="startButton" class="button-primary">Start Auto Clicker</button>
+            <button id="stopButton" class="button-secondary" style="display: none;">Stop Clicker</button>
+        </div>
+
+        <div class="links-section">
+            <a href="https://www.tiktok.com/" target="_blank" class="link">Visit TikTok</a>
+            <a href="https://www.tiktok.com/live" target="_blank" class="link">Go to TikTok Live</a>
+        </div>
+    </div>
+
+    <!-- Load the script after the DOM is fully loaded -->
+    <script src="popup.js"></script>
+</body>
+</html>

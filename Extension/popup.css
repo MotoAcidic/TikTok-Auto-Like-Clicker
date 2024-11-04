@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Popup Container Styling */
+.popup-container {
+    width: 280px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Heading */
+.popup-container h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Label */
+.popup-container label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input Field */
+#clickCount, #clickInterval {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#clickCount:focus, #clickInterval:focus {
+    border-color: #4CAF50;
+}
+
+/* Buttons */
+.button-primary, .button-secondary {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.button-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #45a049;
+}
+
+.button-secondary {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: #e84343;
+}
+
+/* Links Section Styling */
+.links-section {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.link {
+    display: block;
+    color: #4CAF50;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: #388E3C;
+}
