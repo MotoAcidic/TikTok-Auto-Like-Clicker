@@ -1,6 +1,6 @@
 # TikTok Live Auto Clicker Extension
 
-![TikTok Live Auto Clicker](https://github.com/MotoAcidic/tiktok-auto-clicker/blob/main/images/logo.png)
+![TikTok Live Auto Clicker](https://github.com/MotoAcidic/TikTok-Auto-Like-Clicker/blob/main/images/logo.PNG)
 
 This Chrome extension automatically clicks on TikTok Live videos based on user-defined settings for click count and interval. It supports both desktop and mobile click modes, allowing you to specify whether you want it to target the like button on desktop or click the center of the screen on mobile.
 
